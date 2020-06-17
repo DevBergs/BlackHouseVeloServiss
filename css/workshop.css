@@ -14,7 +14,8 @@ html {
     font-size: 10px;
     box-sizing: border-box;
 }
-.shadow{
+
+.shadow {
     z-index: -1;
 }
 
@@ -72,14 +73,14 @@ nav {
 
 .nav-brand {
     width: 20rem;
-    
+
 }
 
 .nav-brand h1 {
     color: #ffff;
     font-size: 1.5vh;
-    display: inline;  
-    
+    display: inline;
+
 }
 
 
@@ -182,7 +183,8 @@ nav {
 }
 
 .btn {
-    background-color: #9dd851;;
+    background-color: #9dd851;
+    ;
     border-radius: 2rem;
     color: #070707;
     display: inline-block;
@@ -195,7 +197,7 @@ nav {
 
 .btn:hover {
     background-color: #9dd851;
-    
+
 }
 
 /* Experience the outdoors */
@@ -216,7 +218,7 @@ nav {
 }
 
 .title-heading h1 {
-    font-family: 'Aldrich' sans-serif;
+    font-family: 'Aldrich'sans-serif;
     font-size: 2rem;
     margin: .5rem 0 1rem;
 }
@@ -236,9 +238,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     cursor: pointer
-    
-  
-   
 }
 
 .activities-grid-item::before {
@@ -249,7 +248,7 @@ nav {
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, rgba(3, 3, 3, 0.9) 0%, rgba(0, 0, 54, 0.8)100%);
-    
+
 }
 
 
@@ -259,56 +258,58 @@ nav {
 }
 
 .activities-grid-item h1 {
-    
+
     font-size: 1.7rem;
     text-transform: uppercase;
-   
+
 }
 
-.content h1{
+.content h1 {
     z-index: 1;
-    
-    
+
+
 }
 
 
 
-table{
- 
-     
+table {
+
+
     border-collapse: collapse;
     width: 100%;
     margin: 2vh;
-    font-family: 'Aldrich' sans-serif; 
-  }
+    font-family: 'Aldrich'sans-serif;
+}
 
-  .row span {
-      color: orange;
-  }
+.row span {
+    color: orange;
+}
 
-  th{
-      background-color: lightslategray;
-  }
-  
-  th, td {
+th {
+    background-color: #0b0b2671;
+}
+
+
+th,
+td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-  }
+}
 
-  tr {
-      cursor: pointer;
-  }
+tr {
+    cursor: pointer;
+}
 
-  tr:hover{
-      background-color: rgb(158, 159, 160);
-  }
+tr:hover {
+    background-color: rgb(157, 216, 81);
+}
 
 footer {
     padding: 2.5rem 0;
     text-align: center;
-   
-    
+
+
 }
 
 /* Media queries */
@@ -327,7 +328,7 @@ footer {
         background-size: cover;
     }
 
-   
+
 }
 
 
@@ -339,6 +340,7 @@ footer {
     .nav-brand {
         width: 30rem;
     }
+
     .nav-list {
         width: initial;
         height: initial;
@@ -403,21 +405,21 @@ footer {
 }
 
 @media screen and (min-width: 950px) {
-    
+
     .hero::before {
         height: 5rem;
         background-color: #ffff;
         background-size: cover;
 
-  
+
 
     }
 
-    
+
 
     @media screen and (min-width: 1200px) {
         .hero {
-            height:50vh;
+            height: 50vh;
         }
     }
 }
