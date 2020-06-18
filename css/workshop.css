@@ -264,17 +264,6 @@ nav {
 
 }
 
-
-
-
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 2vh;
-    font-family: 'Aldrich'sans-serif;
-}
-
 .row {
     display: flex;
     margin: auto;
@@ -283,6 +272,17 @@ table {
 .row span {
     color: orange;
 }
+
+
+
+table {
+    display: flex;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2vh;
+    font-family: 'Aldrich'sans-serif;
+}
+
 
 th {
     background-color: #0b0b2671;
