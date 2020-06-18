@@ -271,12 +271,7 @@ footer {
 
 /* Media queries */
 
-@media screen and (min-width: 350px) {
-  .main-message {
-    /* transform: translate(50%); */
 
-  }
-}
 
 @media screen and (min-width: 470px) {
   .hero::before {
