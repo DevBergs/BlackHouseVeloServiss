@@ -264,21 +264,20 @@ nav {
 
 }
 
-.content h1 {
-    z-index: 1;
 
-
-}
 
 
 
 table {
-
-
     border-collapse: collapse;
     width: 100%;
     margin: 2vh;
     font-family: 'Aldrich'sans-serif;
+}
+
+.row {
+    display: flex;
+    margin: auto;
 }
 
 .row span {
