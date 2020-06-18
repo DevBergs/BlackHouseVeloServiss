@@ -265,7 +265,7 @@ nav {
 }
 
 .row {
-    display: flex;
+    
     margin: auto;
 }
 
@@ -276,7 +276,7 @@ nav {
 
 
 table {
-    display: flex;
+   
     border-collapse: collapse;
     width: 100%;
     margin: 2vh;
@@ -297,6 +297,7 @@ td {
 }
 
 tr {
+    border-collapse: collapse;
     cursor: pointer;
 }
 
