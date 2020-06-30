@@ -33,6 +33,6 @@ $recipient = "info@ozovelo.lv";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
 echo "Email sent!";
-header("Location: /contacts.html);
-exit;
+header("Location: http://ozovelo.lv/contacts.html);
+
 ?>
